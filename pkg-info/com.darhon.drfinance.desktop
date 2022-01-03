@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Darhon Finance
+GenericName=Accounting tool
+Encoding=UTF-8
+Comment=Manage your personal accounts
+Exec=drfinance
+Icon=com.darhon.drfinance
+StartupNotify=false
+Terminal=false
+Type=Application
+Categories=Utility;

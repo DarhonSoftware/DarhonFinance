@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CCalendar</class>
+ <widget class="QDialog" name="CCalendar">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>273</width>
+    <height>188</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Calendar</string>
+  </property>
+  <layout class="QVBoxLayout" name="pLayout">
+   <item>
+    <widget class="QCalendarWidget" name="pCalendarWidget">
+     <property name="firstDayOfWeek">
+      <enum>Qt::Monday</enum>
+     </property>
+     <property name="gridVisible">
+      <bool>true</bool>
+     </property>
+     <property name="horizontalHeaderFormat">
+      <enum>QCalendarWidget::ShortDayNames</enum>
+     </property>
+     <property name="verticalHeaderFormat">
+      <enum>QCalendarWidget::NoVerticalHeader</enum>
+     </property>
+     <property name="dateEditEnabled">
+      <bool>false</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="pPBYesterday">
+       <property name="text">
+        <string>Yesterday</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pPBToday">
+       <property name="text">
+        <string>Today</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pPBTomorrow">
+       <property name="text">
+        <string>Tomorrow</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QDialogButtonBox" name="buttonBox">
+     <property name="standardButtons">
+      <set>QDialogButtonBox::Cancel</set>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>pCalendarWidget</tabstop>
+  <tabstop>pPBToday</tabstop>
+  <tabstop>pPBTomorrow</tabstop>
+  <tabstop>pPBYesterday</tabstop>
+ </tabstops>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>rejected()</signal>
+   <receiver>CCalendar</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>217</x>
+     <y>170</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>271</x>
+     <y>151</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

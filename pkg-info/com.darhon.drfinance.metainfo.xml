@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>com.darhon.drfinance</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0</project_license>
+  <name>Darhon Finance</name>
+  <summary>Manage your personal accounts</summary>
+
+  <description>
+    <p>A robust user-friendly personal finance program to track your credit cards, bank accounts and investments.</p>
+    <p>It is packed with multiple currency capability, bank reconciliation, split transactions, reports and graphs.</p>
+    <p>Simplify your search by filtering transactions or search them with a powerful in-built tool.</p>
+    <p>Export transactions to TXT or print the to PDF file.</p>
+    <p>Set up your budget and plan for your expenses.</p>
+    <p>Register scheduled transactions for recurrent operations.</p>
+    <p>Safebox module is included to keep your private data stored in only one place.</p>
+    <p>Optimized for desktop computers.</p>
+  </description>
+
+  <launchable type="desktop-id">com.darhon.drfinance.desktop</launchable>
+
+  <screenshots>
+    <screenshot type="default">
+      <image type="source">https://darhon.com/sites/default/files/images/content_slide/drf-screenshot1.png</image>
+    </screenshot>
+    <screenshot>
+      <image type="source">https://darhon.com/sites/default/files/images/content_slide/drf-screenshot2.png</image>
+    </screenshot>
+    <screenshot>
+      <image type="source">https://darhon.com/sites/default/files/images/content_slide/drf-screenshot3.png</image>
+    </screenshot>
+    <screenshot>
+      <image type="source">https://darhon.com/sites/default/files/images/content_slide/drf-screenshot4.png</image>
+    </screenshot>
+    <screenshot>
+      <image type="source">https://darhon.com/sites/default/files/images/content_slide/drf-screenshot5.png</image>
+    </screenshot>
+    <screenshot>
+      <image type="source">https://darhon.com/sites/default/files/images/content_slide/drf-screenshot6.png</image>
+    </screenshot>
+    <screenshot>
+      <image type="source">https://darhon.com/sites/default/files/images/content_slide/drf-screenshot7.png</image>
+    </screenshot>
+    <screenshot>
+      <image type="source">https://darhon.com/sites/default/files/images/content_slide/drf-screenshot8.png</image>
+    </screenshot>
+    <screenshot>
+      <image type="source">https://darhon.com/sites/default/files/images/content_slide/drf-screenshot9.png</image>
+    </screenshot>
+  </screenshots>
+  
+  <categories>
+    <category>Utility</category>
+  </categories>
+
+  <url type="homepage">https://darhon.com/darhon-finance</url>
+  <developer_name>Darhon Software</developer_name>
+
+  <provides>
+    <binary>drfinance</binary>
+  </provides>
+
+  <releases>
+    <release version="1.5" date="2021-12-28"/>
+  </releases>
+</component>
