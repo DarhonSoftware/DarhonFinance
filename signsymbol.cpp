@@ -71,7 +71,7 @@ void CSignSymbol::drawSign()
   }
 
   //Show border
-  QPen PenBorder(palette().windowText(),0,Qt::SolidLine);
+  QPen PenBorder(palette().text(),0,Qt::SolidLine);
   Painter.setBrush(Qt::NoBrush);
   Painter.setPen(PenBorder);
   Painter.drawRoundedRect(0,0,100,100,50,50,Qt::RelativeSize);

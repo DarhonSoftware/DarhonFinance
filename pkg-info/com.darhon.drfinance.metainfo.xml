@@ -59,6 +59,8 @@
   <provides>
     <binary>drfinance</binary>
   </provides>
+  
+  <content_rating type="oars-1.0" />
 
   <releases>
     <release version="1.5" date="2021-12-28"/>

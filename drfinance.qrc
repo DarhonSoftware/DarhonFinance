@@ -152,8 +152,4 @@
         <file>icons/status-partially.png</file>
         <file>icons/status-unchecked.png</file>
     </qresource>
-    <qresource prefix="/translations">
-        <file>darhonfinance_en.qm</file>
-        <file>darhonfinance_es.qm</file>
-    </qresource>
 </RCC>
