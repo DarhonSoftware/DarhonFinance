@@ -1293,14 +1293,14 @@
     <message>
         <location filename="mainwindow0.cpp" line="69"/>
         <location filename="mainwindow0.cpp" line="246"/>
-        <location filename="mainwindow0.cpp" line="1374"/>
+        <location filename="mainwindow0.cpp" line="1377"/>
         <source>Settings</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="mainwindow0.cpp" line="72"/>
         <location filename="mainwindow0.cpp" line="247"/>
-        <location filename="mainwindow0.cpp" line="1470"/>
+        <location filename="mainwindow0.cpp" line="1473"/>
         <source>Help</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1321,19 +1321,19 @@
     </message>
     <message>
         <location filename="mainwindow0.cpp" line="84"/>
-        <location filename="mainwindow0.cpp" line="1356"/>
+        <location filename="mainwindow0.cpp" line="1359"/>
         <source>General</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="mainwindow0.cpp" line="87"/>
-        <location filename="mainwindow0.cpp" line="1362"/>
+        <location filename="mainwindow0.cpp" line="1365"/>
         <source>Currencies</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="mainwindow0.cpp" line="90"/>
-        <location filename="mainwindow0.cpp" line="1368"/>
+        <location filename="mainwindow0.cpp" line="1371"/>
         <source>Schedule</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1354,13 +1354,13 @@
     </message>
     <message>
         <location filename="mainwindow0.cpp" line="102"/>
-        <location filename="mainwindow0.cpp" line="1434"/>
+        <location filename="mainwindow0.cpp" line="1437"/>
         <source>Transfer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="mainwindow0.cpp" line="105"/>
-        <location filename="mainwindow0.cpp" line="1428"/>
+        <location filename="mainwindow0.cpp" line="1431"/>
         <source>Report</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1386,7 +1386,7 @@
     </message>
     <message>
         <location filename="mainwindow0.cpp" line="120"/>
-        <location filename="mainwindow0.cpp" line="1464"/>
+        <location filename="mainwindow0.cpp" line="1467"/>
         <source>Search</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1412,12 +1412,12 @@
     </message>
     <message>
         <location filename="mainwindow0.cpp" line="243"/>
-        <location filename="mainwindow0.cpp" line="861"/>
-        <location filename="mainwindow0.cpp" line="1326"/>
-        <location filename="mainwindow0.cpp" line="1332"/>
-        <location filename="mainwindow0.cpp" line="1338"/>
-        <location filename="mainwindow0.cpp" line="1344"/>
-        <location filename="mainwindow0.cpp" line="1350"/>
+        <location filename="mainwindow0.cpp" line="864"/>
+        <location filename="mainwindow0.cpp" line="1329"/>
+        <location filename="mainwindow0.cpp" line="1335"/>
+        <location filename="mainwindow0.cpp" line="1341"/>
+        <location filename="mainwindow0.cpp" line="1347"/>
+        <location filename="mainwindow0.cpp" line="1353"/>
         <source>Transactions</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1432,314 +1432,314 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow0.cpp" line="546"/>
-        <location filename="mainwindow0.cpp" line="553"/>
-        <location filename="mainwindow0.cpp" line="560"/>
-        <location filename="mainwindow0.cpp" line="570"/>
+        <location filename="mainwindow0.cpp" line="549"/>
+        <location filename="mainwindow0.cpp" line="556"/>
+        <location filename="mainwindow0.cpp" line="563"/>
+        <location filename="mainwindow0.cpp" line="573"/>
         <source>Open database</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow0.cpp" line="546"/>
+        <location filename="mainwindow0.cpp" line="549"/>
         <source>The database&apos;s version isn&apos;t supported.
 You will need to upgrade your application.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow0.cpp" line="553"/>
+        <location filename="mainwindow0.cpp" line="556"/>
         <source>Your database seems to be corrupted.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow0.cpp" line="560"/>
+        <location filename="mainwindow0.cpp" line="563"/>
         <source>Wrong password. Please try again.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow0.cpp" line="570"/>
+        <location filename="mainwindow0.cpp" line="573"/>
         <source>Error reported by the driver while opening the database:
 </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow0.cpp" line="581"/>
-        <location filename="mainwindow0.cpp" line="1815"/>
+        <location filename="mainwindow0.cpp" line="584"/>
+        <location filename="mainwindow0.cpp" line="1818"/>
         <source>Validate database</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow0.cpp" line="581"/>
+        <location filename="mainwindow0.cpp" line="584"/>
         <source>The database is not a valid DRF file.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow0.cpp" line="632"/>
+        <location filename="mainwindow0.cpp" line="635"/>
         <source>Manage your Personal Accounts</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow0.cpp" line="633"/>
+        <location filename="mainwindow0.cpp" line="636"/>
         <source>Darhon Finance is a simple to use and yet powerful software packed with all the necessary tools to control your accounts.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow0.cpp" line="634"/>
+        <location filename="mainwindow0.cpp" line="637"/>
         <source>Copyright 2010-2022 - Darhon Software</source>
         <oldsource>Copyright 2010-2013 - Darhon Software</oldsource>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow0.cpp" line="635"/>
+        <location filename="mainwindow0.cpp" line="638"/>
         <source>Privacy Policy</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow0.cpp" line="1069"/>
+        <location filename="mainwindow0.cpp" line="1072"/>
         <source>Create File</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow0.cpp" line="1204"/>
+        <location filename="mainwindow0.cpp" line="1207"/>
         <source>Adjutment of final balance</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow0.cpp" line="1205"/>
+        <location filename="mainwindow0.cpp" line="1208"/>
         <source>Adjust initial balance to get the following final balance:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow0.cpp" line="1314"/>
+        <location filename="mainwindow0.cpp" line="1317"/>
         <source>Accounts</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow0.cpp" line="1380"/>
+        <location filename="mainwindow0.cpp" line="1383"/>
         <source>Items</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow0.cpp" line="1386"/>
+        <location filename="mainwindow0.cpp" line="1389"/>
         <source>Edit Item</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow0.cpp" line="1392"/>
+        <location filename="mainwindow0.cpp" line="1395"/>
         <source>Item Info</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow0.cpp" line="1398"/>
+        <location filename="mainwindow0.cpp" line="1401"/>
         <source>Edit Group</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow0.cpp" line="1404"/>
+        <location filename="mainwindow0.cpp" line="1407"/>
         <source>Edit Trans</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow0.cpp" line="1410"/>
+        <location filename="mainwindow0.cpp" line="1413"/>
         <source>Trans Info</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow0.cpp" line="1416"/>
+        <location filename="mainwindow0.cpp" line="1419"/>
         <source>Edit Account</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow0.cpp" line="1422"/>
+        <location filename="mainwindow0.cpp" line="1425"/>
         <source>Account Info</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow0.cpp" line="1440"/>
+        <location filename="mainwindow0.cpp" line="1443"/>
         <source>Split</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow0.cpp" line="1446"/>
+        <location filename="mainwindow0.cpp" line="1449"/>
         <source>Edit Budget</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow0.cpp" line="1452"/>
+        <location filename="mainwindow0.cpp" line="1455"/>
         <source>Budgets</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow0.cpp" line="1458"/>
+        <location filename="mainwindow0.cpp" line="1461"/>
         <source>Budget Rep</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow0.cpp" line="1657"/>
+        <location filename="mainwindow0.cpp" line="1660"/>
         <source>Create New Database</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow0.cpp" line="1664"/>
-        <location filename="mainwindow0.cpp" line="1678"/>
+        <location filename="mainwindow0.cpp" line="1667"/>
+        <location filename="mainwindow0.cpp" line="1681"/>
         <source>Database</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow0.cpp" line="1664"/>
+        <location filename="mainwindow0.cpp" line="1667"/>
         <source>The file already exist</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow0.cpp" line="1672"/>
+        <location filename="mainwindow0.cpp" line="1675"/>
         <source>Open Existing Database</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow0.cpp" line="1678"/>
+        <location filename="mainwindow0.cpp" line="1681"/>
         <source>The file doesn&apos;t exist</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow0.cpp" line="1718"/>
+        <location filename="mainwindow0.cpp" line="1721"/>
         <source>&apos;Groceries&apos;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow0.cpp" line="1719"/>
+        <location filename="mainwindow0.cpp" line="1722"/>
         <source>&apos;Education&apos;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow0.cpp" line="1720"/>
+        <location filename="mainwindow0.cpp" line="1723"/>
         <source>&apos;Entertaiment&apos;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow0.cpp" line="1721"/>
+        <location filename="mainwindow0.cpp" line="1724"/>
         <source>&apos;Health&apos;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow0.cpp" line="1722"/>
+        <location filename="mainwindow0.cpp" line="1725"/>
         <source>&apos;Salary&apos;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow0.cpp" line="1723"/>
+        <location filename="mainwindow0.cpp" line="1726"/>
         <source>&apos;Home&apos;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow0.cpp" line="1724"/>
+        <location filename="mainwindow0.cpp" line="1727"/>
         <source>&apos;Sport&apos;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow0.cpp" line="1725"/>
+        <location filename="mainwindow0.cpp" line="1728"/>
         <source>&apos;Travel&apos;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow0.cpp" line="1731"/>
+        <location filename="mainwindow0.cpp" line="1734"/>
         <source>&apos;Personal&apos;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow0.cpp" line="1732"/>
+        <location filename="mainwindow0.cpp" line="1735"/>
         <source>&apos;Business&apos;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow0.cpp" line="1742"/>
+        <location filename="mainwindow0.cpp" line="1745"/>
         <source>&apos;Checking&apos;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow0.cpp" line="1743"/>
+        <location filename="mainwindow0.cpp" line="1746"/>
         <source>&apos;Credit card&apos;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow0.cpp" line="1744"/>
+        <location filename="mainwindow0.cpp" line="1747"/>
         <source>&apos;Savings&apos;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow0.cpp" line="1745"/>
+        <location filename="mainwindow0.cpp" line="1748"/>
         <source>&apos;Cash&apos;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow0.cpp" line="1759"/>
+        <location filename="mainwindow0.cpp" line="1762"/>
         <source>&apos;Emails&apos;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow0.cpp" line="1759"/>
+        <location filename="mainwindow0.cpp" line="1762"/>
         <source>&apos;email&apos;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow0.cpp" line="1759"/>
-        <location filename="mainwindow0.cpp" line="1760"/>
+        <location filename="mainwindow0.cpp" line="1762"/>
+        <location filename="mainwindow0.cpp" line="1763"/>
         <source>&apos;username&apos;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow0.cpp" line="1759"/>
-        <location filename="mainwindow0.cpp" line="1760"/>
+        <location filename="mainwindow0.cpp" line="1762"/>
+        <location filename="mainwindow0.cpp" line="1763"/>
         <source>&apos;pass&apos;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow0.cpp" line="1759"/>
+        <location filename="mainwindow0.cpp" line="1762"/>
         <source>&apos;server&apos;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow0.cpp" line="1760"/>
+        <location filename="mainwindow0.cpp" line="1763"/>
         <source>&apos;Websites&apos;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow0.cpp" line="1760"/>
+        <location filename="mainwindow0.cpp" line="1763"/>
         <source>&apos;url&apos;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow0.cpp" line="1779"/>
+        <location filename="mainwindow0.cpp" line="1782"/>
         <source>Create database</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow0.cpp" line="1779"/>
+        <location filename="mainwindow0.cpp" line="1782"/>
         <source>Error reported by the driver while creating the database.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow0.cpp" line="1814"/>
+        <location filename="mainwindow0.cpp" line="1817"/>
         <source>The database&apos;s version isn&apos;t supported by your current package.
 You will need to upgrade your application.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow0.cpp" line="1820"/>
+        <location filename="mainwindow0.cpp" line="1823"/>
         <source>Your database needs to be upgraded to version %1. Once the upgrade is committed, it won&apos;t be readable by older applications.
 Do you want to continue?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow0.cpp" line="1821"/>
+        <location filename="mainwindow0.cpp" line="1824"/>
         <source>Confirmation</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow0.cpp" line="1883"/>
+        <location filename="mainwindow0.cpp" line="1886"/>
         <source>Upgrade database</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow0.cpp" line="1883"/>
+        <location filename="mainwindow0.cpp" line="1886"/>
         <source>There was a problem while upgrading your database.
 No changes were committed.</source>
         <translation type="unfinished"></translation>

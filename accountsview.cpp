@@ -63,6 +63,7 @@ CAccountsView::CAccountsView(QWidget *pWidget) :
   connect(g_pMainWindow,SIGNAL(newTransaction()),this,SLOT(updateView()));
   connect(g_pMainWindow,SIGNAL(clickReport()),this,SLOT(reportForm()));
   connect(g_pMainWindow,SIGNAL(clickInfo()),this,SLOT(infoItem()));
+  connect(g_pMainWindow,SIGNAL(beforeCloseEvent()),this,SLOT(saveViewState()));
 
   //Initialize AccountView state from Database
   updateViewState();
@@ -70,7 +71,6 @@ CAccountsView::CAccountsView(QWidget *pWidget) :
 
 CAccountsView::~CAccountsView()
 {
-  saveViewState();
   delete ui;
 }
 
@@ -100,6 +100,7 @@ void CAccountsView::updateViewState()
     ui->pTableView->setColumnHidden(7,true);
     ui->pTableView->setColumnHidden(8,true);
     ui->pTableView->setColumnHidden(9,true);
+    ui->pTableView->setColumnHidden(11,true);
     ui->pTableView->resizeColumnsToContents();
 
     QHeaderView * pHeader=ui->pTableView->horizontalHeader();

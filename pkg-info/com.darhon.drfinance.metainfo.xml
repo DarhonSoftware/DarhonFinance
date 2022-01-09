@@ -10,7 +10,7 @@
     <p>A robust user-friendly personal finance program to track your credit cards, bank accounts and investments.</p>
     <p>It is packed with multiple currency capability, bank reconciliation, split transactions, reports and graphs.</p>
     <p>Simplify your search by filtering transactions or search them with a powerful in-built tool.</p>
-    <p>Export transactions to TXT or print the to PDF file.</p>
+    <p>Export transactions to TXT or print them to PDF file.</p>
     <p>Set up your budget and plan for your expenses.</p>
     <p>Register scheduled transactions for recurrent operations.</p>
     <p>Safebox module is included to keep your private data stored in only one place.</p>
@@ -54,6 +54,7 @@
   </categories>
 
   <url type="homepage">https://darhon.com/darhon-finance</url>
+  <url type="bugtracker">https://github.com/DarhonSoftware/DarhonFinance/issues</url>
   <developer_name>Darhon Software</developer_name>
 
   <provides>

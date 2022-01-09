@@ -117,6 +117,7 @@ signals:
   void afterChangeDatabase();
   void newTransaction();
   void updateBudget();
+  void beforeCloseEvent();
 
   void clickReport();
   void clickInfo();

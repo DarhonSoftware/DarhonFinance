@@ -391,6 +391,9 @@ void CMainWindow::blockTimerSch(bool bBlock)
 
 void CMainWindow::closeEvent(QCloseEvent *pEvent)
 {
+  //Emit signal to trigger actions in children objects
+  emit beforeCloseEvent();
+
   //Save settings to file
   QSettings Settings;
   Settings.setValue("size", size());
