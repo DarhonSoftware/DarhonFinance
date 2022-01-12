@@ -50,7 +50,7 @@
   </screenshots>
   
   <categories>
-    <category>Utility</category>
+    <category>Productivity</category>
   </categories>
 
   <url type="homepage">https://darhon.com/darhon-finance</url>
@@ -64,6 +64,6 @@
   <content_rating type="oars-1.0" />
 
   <releases>
-    <release version="1.5" date="2021-12-28"/>
+    <release version="1.5.0" date="2021-12-28"/>
   </releases>
 </component>
