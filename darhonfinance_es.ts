@@ -6,7 +6,7 @@
     <message>
         <location filename="dr_about.ui" line="14"/>
         <source>About</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Acerca</translation>
     </message>
     <message>
         <location filename="dr_about.ui" line="53"/>
@@ -1307,7 +1307,7 @@
     <message>
         <location filename="mainwindow0.cpp" line="75"/>
         <source>About</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Acerca</translation>
     </message>
     <message>
         <location filename="mainwindow0.cpp" line="78"/>
@@ -2878,12 +2878,12 @@ This is safe. Your data is kept untouched.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="main.cpp" line="27"/>
+        <location filename="main.cpp" line="29"/>
         <source>Sqlite database driver wasn&apos;t found</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="main.cpp" line="28"/>
+        <location filename="main.cpp" line="30"/>
         <source>The Sqlite driver needs to be installed before running the application.</source>
         <translation type="unfinished"></translation>
     </message>

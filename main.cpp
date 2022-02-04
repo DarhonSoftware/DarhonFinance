@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
   //Setup translations
   QTranslator Translator;
   QString sLanguage = QLocale::system().name().left(2);
-  if (Translator.load(QString("darhonfinance_") + sLanguage,":/translations"))
+  if (Translator.load(QString("darhonfinance_") + sLanguage,":/i18n"))
     Application.installTranslator(&Translator);
 
   //Set application names

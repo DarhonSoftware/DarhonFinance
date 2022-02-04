@@ -15,7 +15,6 @@ set(QT_VERSION_MAJOR 5)
 find_package(Qt${QT_VERSION_MAJOR} COMPONENTS Core Widgets Sql PrintSupport LinguistTools REQUIRED)
 
 set(TS_FILES 
-        darhonfinance_en.ts
         darhonfinance_es.ts
 )
 
