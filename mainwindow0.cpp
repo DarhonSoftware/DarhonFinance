@@ -635,7 +635,7 @@ void CMainWindow::actionAbout()
   const QString sCaption=tr("Manage your Personal Accounts");
   const QString sDescription=tr("Darhon Finance is a simple to use and yet powerful software packed with all the necessary tools to control your accounts.");
   const QString sCopyright=tr("Copyright 2010-2022 - Darhon Software");
-  const QString sPrivacy="<a href='http://www.darhon.com/faq/285'>"+tr("Privacy Policy")+"</a>";
+  const QString sPrivacy="<a href='https://darhon.com/darhon-finance-privacy-policy'>"+tr("Privacy Policy")+"</a>";
 
   CAbout About(sIconAbout,sIconDR,sAppName,sCaption,sDescription,sCopyright,sPrivacy,this);
   About.exec();

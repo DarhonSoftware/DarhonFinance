@@ -15,7 +15,7 @@ CHelp::CHelp(QWidget *pWidget) :
             "<p align='justify'>"+tr("To start adding your transactions, select the new account from Accounts view to open Transactions view and click on")+" <b><i>"+tr("Add")+"</i></b> "+tr("from Actions menu.")+"</p>"\
             "<p align='justify'>"+tr("Enter a date, payee, amount, category and if needed a class from the lists and click")+" <b><i>"+tr("Apply")+"</i></b> "+tr("to close the form. You'll return to the register and the transaction you entered will be displayed and your ending balance will be updated.")+"</p>"\
             "<p align='justify'></p>"\
-            "<p align='justify'>"+tr("Download the user's manual for further and more detailed help from the official website:")+" <a href='http://www.darhon.com'>www.darhon.com</a></p>";
+            "<p align='justify'>"+tr("Download the user's manual for further and more detailed help from the official website:")+" <a href='https://darhon.com'>darhon.com</a></p>";
 
   ui->pTextEdit->setHtml(s);
 }
