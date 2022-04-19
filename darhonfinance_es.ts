@@ -2878,12 +2878,12 @@ This is safe. Your data is kept untouched.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="main.cpp" line="29"/>
+        <location filename="main.cpp" line="27"/>
         <source>Sqlite database driver wasn&apos;t found</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="main.cpp" line="30"/>
+        <location filename="main.cpp" line="28"/>
         <source>The Sqlite driver needs to be installed before running the application.</source>
         <translation type="unfinished"></translation>
     </message>
