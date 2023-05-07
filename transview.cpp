@@ -191,11 +191,11 @@ CTransView::CTransView(Status iStatus, Filters flFilter, const QVariant& Id1, co
 
   //Set connections
   connect(g_pMainWindow,SIGNAL(newTransaction()),this,SLOT(updateView()));
-  connect(ui->pCBAccount,SIGNAL(currentIndexChanged(QString)),this,SLOT(updateView()));
-  connect(ui->pCBPayee,SIGNAL(currentIndexChanged(QString)),this,SLOT(updateView()));
-  connect(ui->pCBClass,SIGNAL(currentIndexChanged(QString)),this,SLOT(updateView()));
-  connect(ui->pCBCategory,SIGNAL(currentIndexChanged(QString)),this,SLOT(updateView()));
-  connect(ui->pCBStatus,SIGNAL(currentIndexChanged(QString)),this,SLOT(updateView()));
+  connect(ui->pCBAccount, SIGNAL(currentIndexChanged(int)), this, SLOT(updateView()));
+  connect(ui->pCBPayee, SIGNAL(currentIndexChanged(int)), this, SLOT(updateView()));
+  connect(ui->pCBClass, SIGNAL(currentIndexChanged(int)), this, SLOT(updateView()));
+  connect(ui->pCBCategory, SIGNAL(currentIndexChanged(int)), this, SLOT(updateView()));
+  connect(ui->pCBStatus, SIGNAL(currentIndexChanged(int)), this, SLOT(updateView()));
   connect(g_pMainWindow,SIGNAL(clickAdd()),this,SLOT(addItem()));
   connect(g_pMainWindow,SIGNAL(clickDelete()),this,SLOT(deleteItem()));
   connect(g_pMainWindow,SIGNAL(clickInfo()),this,SLOT(infoItem()));

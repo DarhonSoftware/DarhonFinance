@@ -88,8 +88,8 @@ CSplitTrans::CSplitTrans(QStandardItemModel *pModel, const QVariant& IdAcc, doub
   connect(ui->pLEAmount,SIGNAL(textEdited(QString)),this,SLOT(setDirty()));
   connect(ui->pSignSymbol,SIGNAL(signChanged()),this,SLOT(setDirty()));
   connect(ui->pLERate,SIGNAL(textEdited(QString)),this,SLOT(setDirty()));
-  connect(ui->pCBCategory,SIGNAL(currentIndexChanged(QString)),this,SLOT(setDirty()));
-  connect(ui->pCBClass,SIGNAL(currentIndexChanged(QString)),this,SLOT(setDirty()));
+  connect(ui->pCBCategory, SIGNAL(currentIndexChanged(int)), this, SLOT(setDirty()));
+  connect(ui->pCBClass, SIGNAL(currentIndexChanged(int)), this, SLOT(setDirty()));
   connect(ui->pRichTextEditor,SIGNAL(textEdited()),this,SLOT(setDirty()));
   connect(m_pModel,SIGNAL(dataChanged(QModelIndex,QModelIndex)),this,SLOT(updateTotals()));
   connect(m_pModel,SIGNAL(rowsRemoved(QModelIndex,int,int)),this,SLOT(updateTotals()));

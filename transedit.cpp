@@ -146,7 +146,7 @@ CTransEdit::CTransEdit(Action iAction, const QVariant& Id, QWidget *pWidget) :
   }
 
   //Connections
-  connect(ui->pCBPayee,SIGNAL(activated(QString)),this,SLOT(autoFillParams(QString)));
+  connect(ui->pCBPayee, SIGNAL(textActivated(QString)), this, SLOT(autoFillParams(QString)));
 }
 
 CTransEdit::~CTransEdit()

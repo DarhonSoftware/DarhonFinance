@@ -53,11 +53,11 @@ CAccountsView::CAccountsView(QWidget *pWidget) :
   ui->pTableView->verticalHeader()->hide();
 
   //Set connections
-  connect(ui->pCBType,SIGNAL(currentIndexChanged(QString)),this,SLOT(updateView()));
-  connect(ui->pCBBank,SIGNAL(currentIndexChanged(QString)),this,SLOT(updateView()));
-  connect(ui->pCBCurrency,SIGNAL(currentIndexChanged(QString)),this,SLOT(updateView()));
-  connect(ui->pCBStatus,SIGNAL(currentIndexChanged(QString)),this,SLOT(updateView()));
-  connect(ui->pCBAccStatus,SIGNAL(currentIndexChanged(QString)),this,SLOT(updateView()));
+  connect(ui->pCBType, SIGNAL(currentIndexChanged(int)), this, SLOT(updateView()));
+  connect(ui->pCBBank, SIGNAL(currentIndexChanged(int)), this, SLOT(updateView()));
+  connect(ui->pCBCurrency, SIGNAL(currentIndexChanged(int)), this, SLOT(updateView()));
+  connect(ui->pCBStatus, SIGNAL(currentIndexChanged(int)), this, SLOT(updateView()));
+  connect(ui->pCBAccStatus, SIGNAL(currentIndexChanged(int)), this, SLOT(updateView()));
   connect(g_pMainWindow,SIGNAL(beforeChangeDatabase()),this,SLOT(saveViewState()));
   connect(g_pMainWindow,SIGNAL(afterChangeDatabase()),this,SLOT(updateViewState()));
   connect(g_pMainWindow,SIGNAL(newTransaction()),this,SLOT(updateView()));

@@ -546,7 +546,10 @@ bool CMainWindow::openDatabase(const QString& sDataBase)
   {
     m_db.setDatabaseName("");
     filterMenusByForm("CAccountsView");
-    g_messageWarning(this,tr("Open database"),tr("The database's version isn't supported.\nYou will need to upgrade your application."));
+    g_messageWarning(
+        this,
+        tr("Open database"),
+        tr("The database's version isn't supported.\nYou will need to upgrade your application."));
     return false;
   }
   if (iError==CCrypt::ErrorIntegrityFailed)
