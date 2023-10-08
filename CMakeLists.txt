@@ -94,8 +94,11 @@ qt_add_executable(${PROJECT_NAME}
   ${SOURCES}
 )
 
+# To update the entries in the .ts file, build the update_translations target:
+# <build-dir>$ cmake --build . --target update_translations
 qt_add_translations(${PROJECT_NAME}
-  TS_FILES darhonfinance_es.ts
+  TS_FILES darhonfinance_es.ts darhonfinance_en.ts
+  LUPDATE_OPTIONS -no-obsolete
 )
 
 target_link_libraries(${PROJECT_NAME}

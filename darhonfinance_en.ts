@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="es_ES">
+<TS version="2.1">
 <context>
     <name>CAbout</name>
     <message>
         <location filename="dr_about.ui" line="14"/>
         <source>About</source>
-        <translation type="unfinished">Acerca</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="dr_about.ui" line="53"/>
@@ -825,7 +825,6 @@
         <source>Delete %n selected item(s)?</source>
         <translation type="unfinished">
             <numerusform></numerusform>
-            <numerusform></numerusform>
         </translation>
     </message>
     <message>
@@ -1171,7 +1170,6 @@
         <source>Delete %n selected item(s)?</source>
         <translation type="unfinished">
             <numerusform></numerusform>
-            <numerusform></numerusform>
         </translation>
     </message>
 </context>
@@ -1307,7 +1305,7 @@
     <message>
         <location filename="mainwindow0.cpp" line="75"/>
         <source>About</source>
-        <translation type="unfinished">Acerca</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="mainwindow0.cpp" line="78"/>
@@ -1485,7 +1483,6 @@ You will need to upgrade your application.</source>
     <message>
         <location filename="mainwindow0.cpp" line="640"/>
         <source>Copyright 2010-2022 - Darhon Software</source>
-        <oldsource>Copyright 2010-2013 - Darhon Software</oldsource>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2124,7 +2121,6 @@ No changes were committed.</source>
         <source>Delete %n selected scheduled transaction(s)?</source>
         <translation type="unfinished">
             <numerusform></numerusform>
-            <numerusform></numerusform>
         </translation>
     </message>
 </context>
@@ -2704,7 +2700,6 @@ This is safe. Your data is kept untouched.</source>
         <location filename="transview.cpp" line="715"/>
         <source>Delete %n selected transaction(s)?</source>
         <translation type="unfinished">
-            <numerusform></numerusform>
             <numerusform></numerusform>
         </translation>
     </message>

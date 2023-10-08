@@ -1,41 +1,43 @@
 #include <QtGui>
 #include <QtSql>
 #include "mainwindow0.h"
-#include "accountsview.h"
 
 QPointer<CMainWindow> g_pMainWindow;
 
 int main(int argc, char *argv[])
 {
-  QApplication Application(argc, argv);
+    QApplication Application(argc, argv);
 
-  //Setup translations
-  QTranslator Translator;
-  QString sLanguage = QLocale::system().name().left(2);
-  if (Translator.load(QString("darhonfinance_") + sLanguage,":/i18n"))
-    Application.installTranslator(&Translator);
+    //Setup translations
+    QTranslator Translator;
+    if (Translator.load(QLocale(), "darhonfinance", "_", ":/i18n")) {
+        Application.installTranslator(&Translator);
+    }
 
-  //Set application names
-  QCoreApplication::setOrganizationName("Darhon");
-  QCoreApplication::setApplicationName("DarhonFinance");
-  QCoreApplication::setApplicationVersion("1.5.0");
-  QCoreApplication::setOrganizationDomain("www.darhon.com");
+    //Set application names
+    QCoreApplication::setOrganizationName("Darhon");
+    QCoreApplication::setApplicationName("DarhonFinance");
+    QCoreApplication::setApplicationVersion("1.5.0");
+    QCoreApplication::setOrganizationDomain("www.darhon.com");
 
-  //Validate database driver and create instance
-  if (!QSqlDatabase::drivers().contains("QSQLITE"))
-  {
-      g_messageWarning(0,QCoreApplication::translate("Global","Sqlite database driver wasn't found"),
-                       QCoreApplication::translate("Global","The Sqlite driver needs to be installed before running the application."));
-      return 1;
-  }
-  QSqlDatabase db = QSqlDatabase::addDatabase("QSQLITE");
+    //Validate database driver and create instance
+    if (!QSqlDatabase::drivers().contains("QSQLITE")) {
+        g_messageWarning(0,
+                         QCoreApplication::translate("Global",
+                                                     "Sqlite database driver wasn't found"),
+                         QCoreApplication::translate("Global",
+                                                     "The Sqlite driver needs to be installed "
+                                                     "before running the application."));
+        return 1;
+    }
+    QSqlDatabase db = QSqlDatabase::addDatabase("QSQLITE");
 
-  //Create and set up main window
-  g_pMainWindow=new CMainWindow;
-  g_pMainWindow->setAttribute(Qt::WA_DeleteOnClose,true);
-  g_pMainWindow->addForm("CAccountsView");
+    //Create and set up main window
+    g_pMainWindow = new CMainWindow;
+    g_pMainWindow->setAttribute(Qt::WA_DeleteOnClose, true);
+    g_pMainWindow->addForm("CAccountsView");
 
-  g_pMainWindow->show();
+    g_pMainWindow->show();
 
-  return Application.exec();
+    return Application.exec();
 }
