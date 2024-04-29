@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.22)
 
-project(drfinance VERSION 1.5.0 LANGUAGES CXX)
+project(drfinance VERSION 1.6.0 LANGUAGES CXX)
 
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 set(CMAKE_CXX_STANDARD 17)

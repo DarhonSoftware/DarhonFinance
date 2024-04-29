@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
     //Set application names
     QCoreApplication::setOrganizationName("Darhon");
     QCoreApplication::setApplicationName("DarhonFinance");
-    QCoreApplication::setApplicationVersion("1.5.0");
+    QCoreApplication::setApplicationVersion("1.6.0");
     QCoreApplication::setOrganizationDomain("www.darhon.com");
 
     //Validate database driver and create instance
