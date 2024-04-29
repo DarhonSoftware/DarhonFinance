@@ -47,12 +47,15 @@
   </screenshots>
   
   <categories>
-    <category>Productivity</category>
+    <category>Utility</category>
   </categories>
 
   <url type="homepage">https://darhon.com/darhon-finance</url>
   <url type="bugtracker">https://github.com/DarhonSoftware/DarhonFinance/issues</url>
-  <developer_name>Darhon Software</developer_name>
+
+  <developer id="com.darhon">
+    <name>Darhon Software</name>
+  </developer>
 
   <provides>
     <binary>drfinance</binary>
