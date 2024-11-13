@@ -16,3 +16,5 @@
   <li>Your data is secure and encrypted with a password only you know.</li>
   <li>As a premium, safe box module comes with a very convenient tool to record credit card numbers, web passwords or any other kind of data normally in your wallet or your memory.</li>
 </ul>
+
+<p><b>NO LONGER MAINTAINED !!</b></p>
