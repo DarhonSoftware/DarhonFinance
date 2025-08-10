@@ -1,11 +1,11 @@
 #ifndef GLOBAL_H
 #define GLOBAL_H
 
-#include <QVariant>
-#include <QString>
-#include <QPointer>
 #include <QDate>
-#include "dr_sql.h"
+#include <QPointer>
+#include <QString>
+#include <QVariant>
+#include "dr_tools/dr_sql.h"
 #include "filterparam.h"
 
 class QComboBox;

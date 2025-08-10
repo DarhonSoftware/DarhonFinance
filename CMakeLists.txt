@@ -3,8 +3,6 @@ cmake_minimum_required(VERSION 3.22)
 project(drfinance VERSION 1.6.0 LANGUAGES CXX)
 
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
-set(CMAKE_CXX_STANDARD 17)
-set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 find_package(Qt6 REQUIRED COMPONENTS Core Widgets Sql PrintSupport LinguistTools)
 
@@ -42,6 +40,8 @@ set (SOURCES
   transinfo.ui
   transview.ui
 
+  dr_tools/dr_crypt.cpp
+  dr_tools/dr_sql.cpp
   accountedit.cpp
   accountinfo.cpp
   accountsview.cpp
@@ -56,8 +56,6 @@ set (SOURCES
   delegatetransview.cpp
   dialogicons.cpp
   dr_about.cpp
-  dr_crypt.cpp
-  dr_sql.cpp
   exchange.cpp
   filterparam.cpp
   formbase.cpp

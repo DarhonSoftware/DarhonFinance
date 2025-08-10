@@ -1,17 +1,17 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
+#include <QDate>
+#include <QList>
 #include <QMainWindow>
 #include <QSqlDatabase>
+#include <QString>
 #include <QTimer>
 #include <QVariant>
-#include <QString>
-#include <QList>
-#include <QDate>
+#include "dr_tools/dr_crypt.h"
+#include "formlist.h"
 #include "global.h"
 #include "transview.h"
-#include "formlist.h"
-#include "dr_crypt.h"
 
 class QWidget;
 class QCloseEvent;
