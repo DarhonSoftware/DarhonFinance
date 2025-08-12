@@ -5,7 +5,7 @@
 #include <QPointer>
 #include <QString>
 #include <QVariant>
-#include "dr_tools/dr_sql.h"
+#include "darhon.tools/dr_sql.h"
 #include "filterparam.h"
 
 class QComboBox;
