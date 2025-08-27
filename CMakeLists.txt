@@ -40,8 +40,8 @@ set (SOURCES
   transinfo.ui
   transview.ui
 
-  darhon.tools/dr_crypt.cpp
-  darhon.tools/dr_sql.cpp
+  darhon_tools/dr_crypt.cpp
+  darhon_tools/dr_sql.cpp
   accountedit.cpp
   accountinfo.cpp
   accountsview.cpp

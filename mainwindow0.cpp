@@ -10,7 +10,7 @@
 #include "budgetrep.h"
 #include "budgetview.h"
 #include "currencyedit.h"
-#include "darhon.tools/dr_crypt.h"
+#include "darhon_tools/dr_crypt.h"
 #include "dr_about.h"
 #include "dr_profile.h"
 #include "generallist.h"

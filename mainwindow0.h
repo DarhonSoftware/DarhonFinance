@@ -8,7 +8,7 @@
 #include <QString>
 #include <QTimer>
 #include <QVariant>
-#include "darhon.tools/dr_crypt.h"
+#include "darhon_tools/dr_crypt.h"
 #include "formlist.h"
 #include "global.h"
 #include "transview.h"
